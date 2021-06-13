@@ -120,6 +120,18 @@ Another HTML version of this org file, made with [[https://github.com/fniessen/o
 - Exclude matches with =RET=
 - You can make an edit and the changes will be reflected in all the
   selection
+  
+* Calc
+
+- [[https://superuser.com/questions/1077154/emacs-commands-to-calculate-sum-average-etc-of-region/1077158][https://superuser.com/questions/1077154/emacs-commands-to-calculate-sum-average-etc-of-region/1077158]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/calc/][https://www.gnu.org/software/emacs/manual/html_node/calc/]]
+
+- Highlight the numbers in the source buffer
+- M-x calc-grab-region (or C-x * g)
+- M-x calc-vector-sum, M-x calc-vector-mean, M-x calc-vector-sdev, etc.
+
+C-x * is a prefix sequence that invokes Calc in a number of ways; the letter that follows determines which one (e.g. g invokes calc-grab-region, r invokes calc-grab-rectangle).
+
 * Org Mode
 ** Basics
 - Org mode gives you structure to your document
